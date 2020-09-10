@@ -1,0 +1,83 @@
+html {
+    font-family: "Avenir Next", Helvetica, sans-serif;
+    text-align: center;
+    background-color: rgb(217, 228, 247);
+}
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    height: 750px;
+}
+input { /*box/field where user types text*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 500px; /*should occupy the full width of the body*/
+    height: 60px; /*height of the box field (user input text)*/
+    font-size: 20px;
+    border: 0;
+    text-align: center;
+}
+input:focus { /*what happens when/if user hovers or click the area*/
+    outline: none; /*by default, there would be a line around the whole field - this removes it*/
+}
+li {
+    text-align: left;
+    font-size: 20px;
+    list-style: none; /*WHAT DOES THAT DO OR NOT DO?*/
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************STICKY FOOTER**********************/
+.stickyFooter {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: rgb(172, 209, 243);
+    padding: 5px 15px;
+    font-size: 4px;
+    text-align: center;
+    
+}
+h1 {
+    line-height: 15px;
+    color: rgb(22, 2, 68);
+}
+.bottomPage {
+    width: 500px;
+    margin: 0 auto;
+    position: absolute;
+    top: 700px;
+    border-style: solid;
+    border-color: rebeccapurple; /*border-color does not work alone - we need border-style first*/
+
+}
